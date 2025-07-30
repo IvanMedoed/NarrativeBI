@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16c6669f-b436-4860-ae9b-9ed99981012e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Circle1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Circle2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Circle3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Circle4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cylinder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frame.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ImageForFooter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rectangle (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rectangle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rectangle3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vector.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/horizontalminibox1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/horizontalminibox2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/horizontalminibox3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/horizontalminibox4.png" afterDir="false" />
-    </list>
+    <list default="true" id="16c6669f-b436-4860-ae9b-9ed99981012e" name="Changes" comment="test commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +43,13 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -91,10 +79,24 @@
       <workItem from="1753475091149" duration="5895000" />
       <workItem from="1753611429102" duration="20042000" />
       <workItem from="1753709478344" duration="5176000" />
+      <workItem from="1753887354086" duration="10608000" />
     </task>
+    <task id="LOCAL-00001" summary="test commit">
+      <option name="closed" value="true" />
+      <created>1753740040858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753740040858</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
 </project>

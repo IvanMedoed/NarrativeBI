@@ -1,15 +1,35 @@
-body {
-    min-width: 1440px;
-    margin: 0 auto;
-}
 
 .wrapper {
     background-color: #FFFFFF;
     max-width: 1440px;
-    height: 740px;
     margin: 0 auto;
 }
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.defaultbutton{
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    border-color: transparent;
+    color: #FFFFFF;
+    background-color: #8D80D1;
+    height: 40px;
+    width: 120px;
+}
+.title { font-family: 'Space Grotesk', sans-serif; font-weight: 700; color: #4B4A62 }
 
+input{
+    box-sizing: border-box;
+    padding: 8px 26px 8px 19px;
+    border-color: transparent;
+    border-radius: 8px;
+}
+
+/* === HEADER === */
 .header {
     background-color: #FFFFFF;
     min-height: 92px;
@@ -20,71 +40,36 @@ body {
     padding: 16px 8px;
 }
 
-p, button {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-}
-
 .uppertoolbars {
     margin: 0 auto;
-    width: 1280px;
+    width: 1200px;
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
     height: 80px;
 }
 
-.box2, .box1 {
-    box-sizing: border-box;
-    align-items: center;
-}
-
-.box1 {
-    height: 32px;
-    width: 158px;
-}
-
 .box2 {
-    font-size: 16px;
-    line-height: 24px;
+    align-items: center;
     justify-content: space-between;
     height: 80px;
     width: 441px;
     color: #4B4A62;
 }
 
-.box2 button{
-    font-size: 16px;
-    line-height: 24px;
-    height: 40px;
-    width: 120px;
-    border-radius: 6px;
-    border-color: transparent;
-    color: #FFFFFF;
-    background-color: #8D80D1;
-}
-
+/* === MAIN === */
 .main {
     margin: 0 auto;
-    background-color: #F1F0F9;
+    background-color: #FFFFFF;
     width: 1416px;
-    height: 645px;
 }
 
+/* === CONTAINER === */
 .container {
-    box-sizing: border-box;
-    margin: 0 auto;
-    height: 624.13px;
-    width: 1104px;
+    background-color: #F1F0F9;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-}
-
-h1, h2, h3, h4{
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
-    color: #4B4A62
 }
 
 .box3 h1{
@@ -92,89 +77,57 @@ h1, h2, h3, h4{
     font-size: 48px;
     line-height: 72px;
 }
-
-.box3 p {
+.box3 span {
     font-size: 20px;
     line-height: 40px;
-    display: inline;
-}
 
+}
 .box3 {
     box-sizing: border-box;
     color: #4B4A62;
     padding: 26px 31px 26px 0px;
     width: 515.71875px;
-    height: 472px;
 }
-
 .box3_1 {
     top: 24px;
     position: relative;
     width: 464px;
-    height: 48px;
 }
 
 .box3_1 input{
-    box-sizing: border-box;
-    padding: 8px 26px 8px 19px;
-    border-color: transparent;
-    border-radius: 8px;
     font-size: 20px;
-    line-height: 32px;
     width: 464px;
     height: 48px;
 }
-
-.box3_1 button {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.buttonInInput {
     position: absolute;
     top: 4px;
     right: 3px;
-    font-size: 19px;
-    line-height: 32px;
-    width: 121px;
     height: 40px;
-    border-radius: 6px;
-    background: #8D80D1;
-    border-color: transparent;
-    color: #FFFFFF;
 }
+.wideButton { width: 121px; font-size: 20px;}
 
 .box4 {
     top: 30px;
     position: relative;
-    width: 493.28px;
     height: 624.125px;
 }
-
-.vspluv {
+.box4 img[src="src/Rectangle.png"] {
     top: 25px;
     position: absolute;
     right: 180px;
-
 }
-
-.main1 {
-    overflow: hidden;
-    margin: 0 auto;
-    background-color: #FFFFFF;
-    width: 1416px;
-    height: 991.875px;
-}
+/* === CONTAINER1 === */
 
 .container1 {
     box-sizing: border-box;
-    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
     padding-top: 140px;
-    margin: 0 auto;
-    width: 1104px;
     height: 991.88px;
+    overflow: hidden;
+    position: relative;
 }
 
 .box5  h2{
@@ -207,29 +160,17 @@ h1, h2, h3, h4{
     border-bottom: 1px solid #8D80D1;
 }
 
-.box6 {
-    height: 647px;
-    width: 1026px;
-}
-
-.cylinder {
-    top: -75px;
-    right: -380px;
-    position: relative;
+.container1 img[src="src/Cylinder.png"] {
+    top: 280px;
+    right: 100px;
+    position: absolute;
     width: 285px;
     height: 157px;
 }
-.main2 {
-    width: 1416px;
-    height: 2005px;
-    background-color: #2B2A45;
-}
-.main2 div {
-    margin: 0 auto;
-}
+/* === CONTAINER2 === */
 .container2 {
+    background-color: #2B2A45;
     height: 2004.984375px;
-    width: 1104px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -258,11 +199,8 @@ h1, h2, h3, h4{
 }
 
 .box8 {
-    width: 1104px;
-    height: 1550.984375px;
     display: flex;
 }
-
 
 .box8 p{
     color: #DFDFE3;
@@ -275,7 +213,6 @@ h1, h2, h3, h4{
 }
 
 .verticalminibox1 {
-
     position: relative;
     box-sizing: border-box;
     width: 546px;
@@ -283,7 +220,7 @@ h1, h2, h3, h4{
     justify-content: space-between;
 
 }
-.cylinder1 {
+.verticalminibox1 img[src="src/cylinder.png"] {
 
     width: 285px;
     height: 157px;
@@ -292,7 +229,6 @@ h1, h2, h3, h4{
     bottom: -40px;
 
 }
-
 .verticalminibox2 {
     padding-top: 30px;
     box-sizing: border-box;
@@ -300,6 +236,7 @@ h1, h2, h3, h4{
     height: 1317.453125px;
     justify-content: space-around;
 }
+
 
 .horizontalminibox1, .horizontalminibox2, .horizontalminibox3, .horizontalminibox4 {
     overflow: hidden;
@@ -310,8 +247,16 @@ h1, h2, h3, h4{
     width: 530px;
 }
 
-.horizontalminibox1 {
-    height: 812px;
+.horizontalminibox1 { height: 812px;}
+
+.horizontalminibox2 { height: 707px;}
+
+.horizontalminibox4 { height: 712px; }
+
+.horizontalminibox3 {
+    height: 542px;
+    padding-top: 180px;
+    position: relative;
 }
 
 .horizontalminibox1 img{
@@ -319,18 +264,16 @@ h1, h2, h3, h4{
     width: 854px;
     height: 717px;
 }
-.horizontalminibox2 {
-    height: 707px;
-}
-.box8 h4 {
 
+.horizontalminibox1 h4 {
     color: #FFFFFF;
     width: 280px;
     font-size: 19px;
     line-height: 40px;
-
 }
+
 .horizontalminibox2 h4, .horizontalminibox3 h4, .horizontalminibox4 h4{
+    color: #FFFFFF;
     font-size: 28px;
     line-height: 40px;
     width: 340px;
@@ -340,24 +283,15 @@ h1, h2, h3, h4{
     width: 669px;
     height: 803px;
 }
-.horizontalminibox3 {
-    padding-top: 180px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    height: 542px;
-}
+
 .horizontalminibox3 div{
-    margin: 0;
     padding-top: 100px;
 }
 .horizontalminibox3 h4, .horizontalminibox3 p{
     margin: 0;
 }
-.horizontalminibox4 {
-    height: 712px;
 
-}
+
 .horizontalminibox4 img{
     width:432px;
     height: 651px;
@@ -370,20 +304,13 @@ h1, h2, h3, h4{
     top: -534px;
 }
 
-.main3 {
-    width: 1416px;
-
-
-}
-
-.main3 div {
-    margin: 0 auto;
-}
+/* === CONTAINER3 === */
 
 .container3 {
     position: relative;
     padding: 96px 0;
     display: flex;
+    align-items: center;
     flex-direction: column;
     background: #F1F0F9;
 }
@@ -402,30 +329,32 @@ h1, h2, h3, h4{
 .box9 h2 {
     font-size: 32px;
     line-height: 46px;
-
 }
+
 .box10 p {
     font-size: 16px;
     line-height: 32px;
     color: #4B4A62;
 }
+
 .box10 {
     padding-top: 103px;
     display: flex;
     flex-wrap: wrap;
     width: 1104px;
     justify-content: space-around;
-
 }
+
 .box10 h3 {
     font-size: 20px;
     line-height: 28px;
 }
+
 .minibox {
     display: flex;
     width: 50%;
-
 }
+
 .container3 img[src="src/cylinder.png"]{
     position: absolute;
     width: 285px;
@@ -433,13 +362,12 @@ h1, h2, h3, h4{
     bottom: -80px;
     right: 150px;
 }
-.container4 {
-    padding: 11px 0 27px 0;
-    width: 1440px;
-    height: 833px;
-}
+
+/* === CONTAINER4 === */
+.container4 { padding: 11px 0 27px 0; }
+
 .box11 {
-    padding: 84px 168px 288px 168px;
+    padding: 84px 168px 288px 232px;
     width: 60%;
 }
 .box11 p {
@@ -452,21 +380,25 @@ h1, h2, h3, h4{
     line-height: 56px;
 }
 
+
+/* === FOOTER === */
 .footer {
     width: 1440px;
     background: #2B2A45;
-
+    display: flex;
+    justify-content: center;
 }
+/* === CONTAINER5 === */
 .container5 {
     padding-top: 95px;
     position: relative;
     height: 648px;
-   
+    display: flex;
+    flex-direction: column;
 }
 
 .downbar{
     padding-top: 47px;
-    margin: 0 auto;
     width: 1104px;
     height: 327px;
     display: flex;
@@ -482,109 +414,81 @@ h1, h2, h3, h4{
     display: flex;
     justify-content: space-around;
     width: 15%;
-    height: 172px;
-
 }
+
+.box15, .box14 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .box14 {
     padding-bottom: 60px;
 }
+
 .box14 p {
     font-size: 14px;
     color: #DFDFE3;
     line-height: 24px;
 }
-.box15, .box14 {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    width: 1104px;
-}
+
 .box15 {
     align-items: center;
     border-top: 1px solid #FFFEFE1F;
     height: 120px;
 }
-.box15 button {
 
-    font-size: 16px;
-    line-height: 24px;
-    height: 40px;
-    width: 120px;
-    border-radius: 6px;
-    border-color: transparent;
-    color: #FFFFFF;
-    background-color: #8D80D1;
-
-}
 .box15 h3{
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     color: #FFFFFF;
 }
+
 .box16 {
+    box-sizing: border-box;
     overflow: hidden;
     display: flex;
-    margin: 0 auto;
     position: absolute;
-    top: -163px;
-    left: 168px;
+    top: -235px;
     width: 1104px;
-    height: 427px;
+    height: 433px;
     border-radius: 16px;
     background: #8D80D1;
 }
+
 .box16 p{
     font-size: 20px;
     line-height: 40px;
     color: #FFFFFF;
 }
+
 .box16 h3 {
     font-size: 23px;
     line-height: 48px;
     color: #FFFFFF;
+    width: 343px;
 }
 
 .box16_1 {
-    padding: 60px 0 60px 64px;
-    width: 478.234375px;
-    height: 303px;
+    padding: 50px 0 60px 64px;
+    width: 420.234375px;
 }
+
 .box16_2 {
     position: relative;
-    width: 464px;
-    height: 48px;
+    width: 430px;
 }
+
 .box16_2 input{
-    box-sizing: border-box;
-    padding: 8px 26px 8px 19px;
-    border-color: transparent;
-    border-radius: 8px;
-    font-size: 20px;
-    line-height: 32px;
-    width: 464px;
+    font-size: 18px;
+    width: 430px;
     height: 48px;
 }
-.box16_2 button {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 4px;
-    right: 3px;
-    font-size: 19px;
-    line-height: 32px;
-    width: 138px;
-    height: 40px;
-    border-radius: 6px;
-    background: #8D80D1;
-    border-color: transparent;
-    color: #FFFFFF;
-}
+
+.slimButton { width: 138px; font-size: 18px;}
+
 .box16 img {
-    position: relative;
-    padding-top: 25px;
+    padding: 30px 0 0 15px;
     width: 795px;
     height: 488px;
 }
