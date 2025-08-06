@@ -20,6 +20,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IvanMedoed&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IvanMedoed/secondProject.git&quot;,
+    &quot;accountId&quot;: &quot;820e39ac-34e9-4611-a0a6-7c9c4de7d4a0&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -35,13 +50,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;adaptation&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTTP Request&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -54,8 +70,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shockland0\WebstormProjects\SecondProject\src\assets\img" />
+      <recent name="C:\Users\shockland0\WebstormProjects\SecondProject\src\assets\icons" />
+      <recent name="C:\Users\shockland0\WebstormProjects\SecondProject\src\assets" />
+      <recent name="C:\Users\shockland0\WebstormProjects\SecondProject\src\icons" />
       <recent name="C:\Users\shockland0\WebstormProjects\SecondProject\src" />
-      <recent name="C:\Users\shockland0\WebstormProjects\SecondProject\css" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -79,7 +98,10 @@
       <workItem from="1753475091149" duration="5895000" />
       <workItem from="1753611429102" duration="20042000" />
       <workItem from="1753709478344" duration="5176000" />
-      <workItem from="1753887354086" duration="10608000" />
+      <workItem from="1753887354086" duration="11146000" />
+      <workItem from="1754080446166" duration="2360000" />
+      <workItem from="1754220049241" duration="11240000" />
+      <workItem from="1754306344249" duration="17783000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <option name="closed" value="true" />
@@ -89,7 +111,31 @@
       <option name="project" value="LOCAL" />
       <updated>1753740040858</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix">
+      <option name="closed" value="true" />
+      <created>1753898081856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753898081856</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix names + format text">
+      <option name="closed" value="true" />
+      <created>1754306375784</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754306375784</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix names + format text">
+      <option name="closed" value="true" />
+      <created>1754306424465</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754306424465</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +143,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="Fix names + format text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix names + format text" />
   </component>
 </project>
